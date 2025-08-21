@@ -1,0 +1,17 @@
+.mnc-btn {
+  background: linear-gradient(90deg, #4f46e5, #6d28d9);
+  color: #fff;
+  border: none;
+  padding: 0.8rem 1.8rem;
+  border-radius: 12px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 8px 20px rgba(79, 70, 229, 0.25);
+  transition: all 0.3s ease;
+}
+
+.mnc-btn:hover {
+  transform: translateY(-3px) scale(1.03);
+  box-shadow: 0 12px 25px rgba(79, 70, 229, 0.35);
+}

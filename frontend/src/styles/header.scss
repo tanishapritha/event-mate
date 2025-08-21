@@ -1,0 +1,39 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #fff;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+
+  .logo a {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #4f46e5;
+    text-decoration: none;
+  }
+
+  nav {
+    display: flex;
+    gap: 2rem;
+
+    a {
+      color: #374151;
+      font-weight: 500;
+      text-decoration: none;
+      transition: color 0.3s ease;
+
+      &:hover {
+        color: #4f46e5;
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
