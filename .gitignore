@@ -1,0 +1,21 @@
+backend\.env
+frontend\.env
+backend\app\firebase-service-account.json
+C:\Users\tprit\event-mate\backend\app\firebase-service-account.json
+.\backend\app\firebase-service-account.json
+.\backend\.env
+.\frontend\.env 
+
+# Python venv
+venv/
+__pycache__/
+*.pyc
+
+# Firebase credentials
+backend/app/firebase-service-account.json
+
+# Environment files
+.env
+
+# Node.js stuff if applicable
+node_modules/
